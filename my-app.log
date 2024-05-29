@@ -1,0 +1,18 @@
+2024-05-26 10:50:44,671 — User-Service — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - Server works
+2024-05-26 10:50:53,097 — User-Service — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - GET /register - Registering new user
+2024-05-26 10:50:53,097 — User-Service — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - GET /register - Registered user. ID: 5c813fbd9f9dbabb633b625d8a765eef
+2024-05-26 10:50:53,100 — subscriber — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - UID: 5c813fbd9f9dbabb633b625d8a765eef - Connecting to broker broker.emqx.io
+2024-05-26 10:50:53,196 — subscriber — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - UID: 5c813fbd9f9dbabb633b625d8a765eef - Subcribing on 'lab/leds/state'
+2024-05-26 10:51:29,783 — User-Service — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - GET /register - Registering new user
+2024-05-26 10:51:29,784 — User-Service — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - GET /register - Registered user. ID: a495ce7f9e91c5237a7b2520bdae53cf
+2024-05-26 10:51:29,787 — publisher — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - UID: a495ce7f9e91c5237a7b2520bdae53cf - Connecting to broker broker.emqx.io
+2024-05-26 10:51:29,854 — publisher — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - UID: a495ce7f9e91c5237a7b2520bdae53cf - Publishing 3 publications on 'lab/leds/state'
+2024-05-26 10:51:29,854 — publisher — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - UID: a495ce7f9e91c5237a7b2520bdae53cf - published a message: onArtemV
+2024-05-26 10:51:31,128 — subscriber — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - received message = onArtemV
+2024-05-26 10:51:31,857 — publisher — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - UID: a495ce7f9e91c5237a7b2520bdae53cf - published a message: offArtemV
+2024-05-26 10:51:32,919 — subscriber — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - received message = offArtemV
+2024-05-26 10:51:33,860 — publisher — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - UID: a495ce7f9e91c5237a7b2520bdae53cf - published a message: onArtemV
+2024-05-26 10:51:34,922 — subscriber — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - received message = onArtemV
+2024-05-26 10:51:35,862 — publisher — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - disconnecting user UID: a495ce7f9e91c5237a7b2520bdae53cf
+2024-05-26 10:51:43,310 — subscriber — WARNING — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - UID: 5c813fbd9f9dbabb633b625d8a765eef - Subcscribing ended
+2024-05-26 10:51:47,370 — User-Service — INFO — Linux-5.15.0-106-generic-x86_64-with-glibc2.35 - Server shutting down
